@@ -95,11 +95,6 @@ We welcome contributions! If you have any ideas, suggestions, or bug reports, pl
 
 ---
 
-## License 📄
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## Acknowledgments 🙏
 
