@@ -4,21 +4,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>About Us - Lucky Draw</title> <!-- Updated title -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css"> <!-- Added custom stylesheet -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Added favicon -->
 </head>
 
 <body>
-  <!--導入navbar-->
+  <!-- 導入navbar -->
   <div id="navbar"></div>
-  <!--創建卡片-->
-  <div id="aboutUsCard">
 
+  <!-- 創建卡片 -->
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-header">
+        About Us
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Welcome to Lucky Draw</h5>
+        <p class="card-text">We are dedicated to providing exciting opportunities for you to win amazing prizes through our lucky draw contests. Our mission is to create a fun and engaging experience for all participants.</p>
+        <p class="card-text">Our team is passionate about bringing joy and excitement to our community. We believe in fair play and transparency, ensuring that every participant has an equal chance to win.</p>
+        <p class="card-text">Join us and be a part of our growing community. We look forward to seeing you win!</p>
+      </div>
+    </div>
   </div>
+
+  <!-- 添加頁腳 -->
+  <footer class="bg-light text-center text-lg-start mt-5">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Lucky Draw</h5>
+          <p>Participate in our exciting lucky draw and stand a chance to win amazing prizes!</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="index.html" class="text-dark">Home</a></li>
+            <li><a href="about-us.html" class="text-dark">About</a></li>
+            <li><a href="contact.html" class="text-dark">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Follow Us</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" class="text-dark">Facebook</a></li>
+            <li><a href="#" class="text-dark">Twitter</a></li>
+            <li><a href="#" class="text-dark">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 bg-dark text-white">
+      © 2025 Lucky Draw. All rights reserved.
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script type="module" src="src/main.js"></script>
 </body>
 
