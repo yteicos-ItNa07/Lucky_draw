@@ -6,7 +6,7 @@
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Lucky Draw 🎉
+            Function
           </button>
         </h2>
         <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -22,15 +22,16 @@
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            Features ✨
+            Features
           </button>
         </h2>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Add Participants: Easily add participants by entering their names.
-            Random Selection: Fairly select a winner from the list of participants.
-            Simple Interface: Clean and user-friendly interface for quick and easy draws.
-            Real-Time Updates: Participants list updates in real-time as new names are added.
-            Winner Announcement: Display the winner with a celebratory message.
+          <div class="accordion-body">
+            <p>- Add Participants: Easily add participants by entering their names.</p>
+            <p>- Random Selection: Fairly select a winner from the list of participants.</p>
+            <p>- Simple Interface: Clean and user-friendly interface for quick and easy draws.</p>
+            <p>- Real-Time Updates: Participants list updates in real-time as new names are added.</p>
+            - Winner Announcement: Display the winner with a celebratory message.
           </div>
         </div>
       </div>
@@ -38,18 +39,15 @@
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            Customization 🛠️
+            Customization
           </button>
         </h2>
         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Add More Features:
+          <div class="accordion-body">
+            <p>- Add More Features: Save the participants list to local storage for persistence.
+              Allow multiple winners to be selected.Add animations or sound effects for a more engaging experience.</p>
 
-            Save the participants list to local storage for persistence.
-            Allow multiple winners to be selected.
-            Add animations or sound effects for a more engaging experience.
-            Styling:
-
-            Modify the styles in styles.css or the component-specific styles to match your branding.
+            <p>- Styling: Modify the styles in styles.css or the component-specific styles to match your branding.</p>
           </div>
         </div>
       </div>
