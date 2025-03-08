@@ -17,7 +17,7 @@
               <a class="nav-link" href="../../about-us.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../../contact.html">Contact</a>
+              <a class="nav-link" href="../../More.html">Contact</a>
             </li>
           </ul>
           <form class="d-flex">
